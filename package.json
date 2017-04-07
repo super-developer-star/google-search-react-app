@@ -1,0 +1,23 @@
+{
+  "name": "google-search-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "browserify": "^14.3.0",
+    "moment": "^2.18.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "reactify": "^1.1.1",
+    "uglify-js": "^2.8.21",
+    "watchify": "^3.9.0"
+  },
+  "devDependencies": {
+    "react-scripts": "0.9.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
